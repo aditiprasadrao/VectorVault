@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF FAISS Search</title>
+</head>
+<body>
+    <h1>Upload PDF</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if msg %}
+        <h3>{{ msg }}</h3>
+    {% endif %}
+
+    {% if pdf_id %}
+    <form method="POST" action="/query">
+        <input type="hidden" name="pdf_id" value="{{ pdf_id }}">
+        <input type="text" name="query" placeholder="Ask something...">
+        <button type="submit">Search</button>
+    </form>
+    {% endif %}
+
+    {% if results %}
+        <h2>Results:</h2>
+        <ul>
+            {% for r in results %}
+                <li>{{ r }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

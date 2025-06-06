@@ -1,0 +1,11 @@
+app:
+  upload_folder: "uploads"
+
+model:
+  name: "all-MiniLM-L6-v2"
+  embedding_dim: 384
+
+logging:
+  level: "INFO"
+  log_to_file: false
+  file_path: "logs/app.log"
