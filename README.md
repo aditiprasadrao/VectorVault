@@ -68,13 +68,13 @@ Before you begin, ensure you have the following installed:
 
 **Option A: Clone from Git**
 ```bash
-git clone https://github.com/yourusername/pdf-faiss-app.git
-cd pdf-faiss-app
+git clone https://github.com/aditiprasadrao/VectorVault.git
+cd VectorVault
 ```
 
 **Option B: Download ZIP**
 - Download the project files
-- Extract to a folder named `pdf-faiss-app`
+- Extract to a folder named `VectorVault`
 - Navigate to the folder
 
 ### Step 2: Create Virtual Environment
