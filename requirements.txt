@@ -1,0 +1,12 @@
+Flask
+Flask_SQLAlchemy
+PyMySQL
+faiss-cpu
+pdfminer.six
+google-generativeai
+openai
+loguru
+tiktoken
+spacy
+spacytextblob
+python-dotenv
