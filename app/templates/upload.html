@@ -1,0 +1,11 @@
+<form method="post" enctype="multipart/form-data">
+  <input type="file" name="file">
+  <button type="submit">Upload</button>
+</form>
+
+<h3>Uploaded PDFs:</h3>
+<ul>
+  {% for doc in documents %}
+    <li>{{ doc.name }}</li>
+  {% endfor %}
+</ul>
