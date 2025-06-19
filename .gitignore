@@ -1,2 +1,15 @@
+# Virtual environments
 venv/
-.env.env 
+
+#env file with api keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.pdb
+*.log
