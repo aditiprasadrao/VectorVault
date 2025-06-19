@@ -1,5 +1,6 @@
 # Virtual environments
 venv/
+<<<<<<< HEAD
 
 #env file with api keys
 .env
@@ -13,3 +14,6 @@ __pycache__/
 *.pyd
 *.pdb
 *.log
+=======
+.env
+>>>>>>> b0643459c3bb8f637dcc51354211a849abc2f274
